@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>자바스크립트 전역함수</title>
+ <script>
+/*
+  function nameConfirm() {
+    if (res == name) {
+    }
+  }
+
+  function evalParseIntIsNaN() {
+    var res = eval("2+12*8-20/7");
+    document.write("2+12*8-20/7 = " + res);
+  }
+*/
+</script>
+</head>
+<body>
+  <h3>eval()로 수식 계산</h3>
+  <hr>
+    <script>
+    var name=prompt("수식 입력", "");
+    document.write(name + "=" + eval(name));
+
+
+    //name = parseInt(name);
+    //  evalParseIntIsNaN();
+    </script>
+</body>
+</html>
