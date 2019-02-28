@@ -1,0 +1,26 @@
+body {
+  	padding: 0px;
+  	margin: 0px;
+  	height: 100%;
+  }
+header {background-color: #FFE4E1;
+  margin-top: 0px;
+    }
+    form {
+     	height : 80%;
+    	background : lightgray;
+    	border : 1px none;
+    	margin : 10px;
+    }
+#Copyright {
+  background-color: mediumorchid;
+  padding: 20px 20px 20px 0px;
+}
+
+h2 {
+  text-align: center;
+}
+textarea {
+  border-radius: 20px;
+  box-shadow: 5px 5px purple;
+}

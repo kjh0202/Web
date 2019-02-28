@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>별 문자 출력하기</title>
+    <script>
+  /*  function star(n) {
+      var m = parseInt(n);
+      if(isNaN(m) || m < 1 || m > 5) {
+        alert("입력 오류입니다..");
+        return;
+      }
+    }
+*/
+  </script>
+</head>
+<body>
+  <h3>별 문자 출력하기</h3>
+  <hr>
+    <script>
+    var n = prompt("정수를 입력하세요", "");
+    star(n);
+  /*  for(i=1; i<=n; i++) {
+    	for(k=0; k<i; k++) {
+    		document.write("*");
+    	}
+    	document.write("<br>");
+    }
+      document.write("<br>");
+*/
+
+    /*for(i=5; i>=n; i--){
+      for(k=0;k>i;k--){
+        document.write("*");
+      	}
+      	document.write("<br>");
+      }
+*/
+
+      for(var height = num-1; height>=0; height--){
+        for(var star = 0; star <= height ; star++){
+          result += "*";
+        }
+        result += "\n"
+      }
+      return result
+
+
+
+</script>
+</body>
+</html>
