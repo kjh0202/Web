@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>document.write()</title>
+</head>
+
+<body>
+  <h3>정수 5개 입력받아 역순으로 출력</h3>
+  <hr>
+  <script>
+    var int = new Array(5);
+      document.write("입력된 수의 배열<br>");
+        for(i=0; i<5; i++)  {
+          int[i] = prompt("정수 입력","");
+          document.write(int[i]+" ");
+        }
+        document.write("<hr>역순으로 재정렬된 배열<br>");
+        for(i=4; i>=0; i--)
+        {
+          document.write(int[i]+" ");
+        }
+  </script>
+</body>
+</html>
